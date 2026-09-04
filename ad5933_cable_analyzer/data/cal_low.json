@@ -1,0 +1,7 @@
+{
+  "freq_hz": 30000,
+  "gain_factor": 4.9871109480298845e-08,
+  "system_phase_deg": 110.67194737429178,
+  "z_threshold_ohm": 2000.0,
+  "phase_threshold_deg": 20.0
+}

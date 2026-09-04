@@ -1,0 +1,4 @@
+# Copy this file to .dashscope_key on the RDK X5 board and put the real
+# DashScope API key on the next line. Do not commit the real .dashscope_key.
+sk-your-dashscope-api-key
+

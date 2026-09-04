@@ -1,0 +1,66 @@
+{
+  "model_name": "yolo26_bpu_bayese_640x640_nv12_int8.bin",
+  "training_mode": "manual_bin_upload",
+  "source_model_path": "desktop_upload:yolo26_bpu_bayese_640x640_nv12_int8.bin",
+  "board_model_path": "/home/sunrise/cable1/models/uploads/yolo26_bpu_bayese_640x640_nv12_int8_user_20260708.bin",
+  "registered_at": "2026-07-08T10:16:04",
+  "sha256": "586aa9a1b0ee7445f6540c7da0b26423782f73bc008c89e1b7ad53e317399663",
+  "output_shapes": [
+    [
+      1,
+      80,
+      80,
+      4
+    ],
+    [
+      1,
+      80,
+      80,
+      1
+    ],
+    [
+      1,
+      40,
+      40,
+      4
+    ],
+    [
+      1,
+      40,
+      40,
+      1
+    ],
+    [
+      1,
+      20,
+      20,
+      4
+    ],
+    [
+      1,
+      20,
+      20,
+      1
+    ]
+  ],
+  "class_count": 1,
+  "class_source": "user_provided",
+  "class_names": [
+    "defeat"
+  ],
+  "model_path": "/home/sunrise/cable1/models/deployed/current.bin",
+  "trained_at": "2026-07-08T09:55:04.389123",
+  "metadata_updated_at": "2026-07-08T10:16:06",
+  "source_path": "/home/sunrise/cable1/models/deployed/yolo26_bpu_bayese_640x640_nv12_int8_user_20260708.bin",
+  "deployed_at": "2026-07-08T10:16:04",
+  "note": "Applied deployment. Detection node is restarted with the selected model.",
+  "applied_model_path": "/home/sunrise/cable1/models/deployed/current.bin",
+  "applied_at": "2026-07-08T10:16:05",
+  "stopped_detection_pids": [
+    283460,
+    283617
+  ],
+  "started_detection_pids": [
+    294181
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "freq_hz": 10000,
+  "gain_factor": 4.987601178221424e-08,
+  "system_phase_deg": 96.78151430237803,
+  "stray_cap_pf": 20.647609513722337,
+  "cable_pf_per_m": 510.0,
+  "normal_net_cap_pf": 0.0,
+  "normal_distance_m": 0.0,
+  "length_tolerance_m": 0.05,
+  "ref_temp_c": 25.0,
+  "temp_coeff_per_c": 0.0
+}

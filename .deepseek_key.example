@@ -1,0 +1,4 @@
+# Copy this file to .deepseek_key only if you use the legacy DeepSeek helper.
+# Do not commit the real .deepseek_key.
+sk-your-deepseek-api-key
+

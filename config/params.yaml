@@ -1,0 +1,25 @@
+# 配置参数说明
+
+## 摄像头配置 (camera_node)
+- camera_id: 摄像头设备ID (0=/dev/video0, 1=/dev/video1)
+- width: 图像宽度
+- height: 图像高度
+- fps: 帧率
+
+## 检测配置 (detection_node)
+- model_path: BPU模型文件路径
+- conf_thresh: 置信度阈值 (0.0-1.0)
+- nms_thresh: NMS阈值 (0.0-1.0)
+- center_threshold: 中央区域阈值（像素），缺陷中心距离图像中心小于此值时触发停止
+
+## 电机配置 (motor_control_node)
+- pin_dir: 方向引脚 (GPIO BOARD模式)
+- pin_step: 脉冲引脚
+- pin_en: 使能引脚
+- step_delay: 脉冲间隔（秒），控制电机速度
+- auto_stop: 检测到中央缺陷时自动停止
+
+## 图像保存配置 (image_saver_node)
+- save_dir: 图像保存目录
+- save_interval: 定时保存间隔（秒）
+- save_on_defect: 检测到缺陷时立即保存
