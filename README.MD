@@ -1,4 +1,4 @@
-# Rixing Bawanli: RDK X5 Cable Defect Inspection System
+# RDK X5 Cable Defect Inspection System
 
 `cable1` is a ROS2-based cable inspection project for the Horizon RDK X5 board. It combines visible-light camera capture, DINOv3 distillation training, YOLO26 coarse localization on the Horizon BPU, OpenCV fine localization, infrared hotspot diagnostics, stepper motor control, a browser-based operations console, AD5933 impedance analysis, dataset/model lifecycle tools, and an OpenClaw-compatible assistant endpoint into one edge-AI inspection workflow.
 
@@ -144,6 +144,10 @@ Core board dependencies:
 - GPIO: `Hobot.GPIO`
 - AD5933: `smbus2`
 - Training/conversion: Ultralytics, PyTorch, ONNX Runtime, `hb_mapper` or the OpenExplorer Docker image
+
+## License
+
+The Python/ROS2 project at the repository root is licensed under Apache License 2.0; see [`LICENSE`](LICENSE). `Cable_Cpp/` is distributed as a separate C++ project and includes its own copy at [`Cable_Cpp/LICENSE`](Cable_Cpp/LICENSE). Third-party code, models, datasets, and assets in the repository remain subject to their own licenses or terms.
 
 ## Notes
 

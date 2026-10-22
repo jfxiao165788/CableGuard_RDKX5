@@ -1,4 +1,4 @@
-# 日行八万里：RDK X5 电缆缺陷智能巡检系统
+# RDK X5 电缆缺陷智能巡检系统
 
 `cable1` 是一个运行在地平线 RDK X5 上的 ROS2 电缆缺陷巡检项目。系统把可见光摄像头、DINOv3 蒸馏训练、YOLO26/BPU 粗定位、OpenCV 精定位、红外热异常检测、步进电机运动控制、Web 控制台、AD5933 阻抗分析、数据集管理、模型训练/转换/部署和 OpenClaw 兼容助手接口集成到同一套边缘 AI 工作流中。
 
@@ -144,6 +144,10 @@ python3 scripts/train_to_bin_pipeline.py \
 - GPIO：`Hobot.GPIO`
 - AD5933：`smbus2`
 - 训练/转换环境：Ultralytics、PyTorch、ONNX Runtime、`hb_mapper` 或 OpenExplorer Docker 镜像
+
+## 许可证
+
+仓库根目录的 Python/ROS2 项目采用 Apache License 2.0，详见 [`LICENSE`](LICENSE)。`Cable_Cpp/` 是单独发布的 C++ 子项目，许可证副本位于 [`Cable_Cpp/LICENSE`](Cable_Cpp/LICENSE)。仓库中保留的第三方代码、模型、数据和资源仍受其各自许可证或使用条款约束。
 
 ## 说明
 
